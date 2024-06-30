@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Tech Goals</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 data-testid="slackDisplayName">XOFT GOALS</h1>
+    </header>
+    <main>
+      <section class="info-section">
+        <p data-testid="currentTimeUTC">
+          <b>Current Time:</b> <span id="current-time"></span>
+        </p>
+        <p data-testid="currentDay">
+          <b>Today is:</b> <span id="current-day"></span>
+        </p>
+      </section>
+      <!-- Profile Section -->
+      <section class="profile-section">
+        <h2>Profile</h2>
+        <div class="profile-container">
+          <div class="profile-img">
+            <img
+              data-testid="slackProfilePicture"
+              src="profile-image.PNG"
+              alt="Profile Picture"
+              width="1033px"
+              height="2575px"
+            />
+          </div>
+          <div class="profile-info">
+            <p><b>Full Name:</b> Mistah XoFT</p>
+            <p data-testid="slackEmail"><b>Email:</b> mistahxoft@gmail.com</p>
+          </div>
+        </div>
+      </section>
+      <section class="goals-section">
+        <h2>My Tech Goals for the Next 2 Years</h2>
+        <ul>
+          <li>
+            <b>Master JavaScript Frameworks: </b>Gain in-depth knowledge of
+            popular frameworks like React, Vue, Svelte, and Angular.
+          </li>
+          <li>
+            <b>Learn Backend Technologies: </b>Learn backend frameworks like
+            Node.js, Express.js, and databases such as MongoDB and SQL.
+          </li>
+          <li>
+            <b>Mobile Development: </b>Get proficient with mobile development
+            frameworks like React Native, Flutter, or Swift for iOS development.
+          </li>
+          <li>
+            <b>Build a Portfolio: </b>Develop a diverse portfolio of projects
+            including websites, web apps, and mobile apps.
+          </li>
+          <li>
+            <b>Contribute to Open Source: </b>Actively contribute to open source
+            projects on platforms like GitHub.
+          </li>
+          <li>
+            <b>Develop a Full-Stack Application: </b>Build a complete full-stack
+            application from scratch using both frontend and backend
+            technologies.
+          </li>
+          <li>
+            <b>Build a Personal Brand: </b>Develop a strong online presence
+            through social media, a personal website, and networking.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Link Section -->
+      <section class="links-section">
+        <h2>Links</h2>
+        <ul>
+          <li>
+            <a data-testid="hngLink" href="http://hng.tech" target="_blank"
+              >HNG</a
+            >
+          </li>
+          <li>
+            <a
+              data-testid="keywordLink"
+              href="http://keyword.dog"
+              target="_blank"
+              >Keyword</a
+            >
+          </li>
+          <li>
+            <a
+              data-testid="scrapeanywebLink"
+              href="http://scrapeanyweb.site"
+              target="_blank"
+              >ScrapeAnyWeb</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+    <script src="scripts.js"></script>
+  </body>
+</html>
