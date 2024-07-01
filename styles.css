@@ -59,7 +59,8 @@ ul li {
   border-left: 5px solid var(--color--primary);
 }
 
-strong, b {
+strong,
+b {
   color: var(--color--primary);
 }
 
@@ -83,7 +84,6 @@ strong, b {
 }
 
 .profile-img {
-  background-color: red;
   width: 150px;
   height: 150px;
   border-radius: 10px;
