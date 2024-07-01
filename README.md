@@ -41,3 +41,7 @@ Open the `index.html` file in your preferred web browser to view the website.
 - **scripts.js**: The JavaScript file containing functionality to display the current time and day.
 - **profile-image.PNG**: My Profile image.
 - **README.md**: This file, providing an overview of the project.
+
+## Live Link
+
+[Live](https://my-tech-goals-website.vercel.app/)
