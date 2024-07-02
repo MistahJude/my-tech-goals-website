@@ -83,18 +83,6 @@ b {
   gap: 20px;
 }
 
-.profile-img {
-  width: 150px;
-  height: 150px;
-  border-radius: 10px;
-  border-left: 5px solid var(--color--primary);
-  overflow: hidden;
-}
-
-.profile-img img {
-  transform: translateY(-10%);
-}
-
 a {
   color: #000;
   text-decoration: none;
