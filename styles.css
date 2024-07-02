@@ -99,11 +99,6 @@ a:focus-visible {
   body {
     font-size: 90%;
   }
-
-  .profile-img {
-    width: 100px;
-    height: 100px;
-  }
 }
 
 @media (max-width: 480px) {
